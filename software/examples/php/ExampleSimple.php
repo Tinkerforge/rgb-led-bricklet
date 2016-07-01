@@ -8,7 +8,7 @@ use Tinkerforge\BrickletRGBLED;
 
 const HOST = 'localhost';
 const PORT = 4223;
-const UID = 'XYZ'; // Change to your UID
+const UID = 'XYZ'; // Change XYZ to the UID of your RGB LED Bricklet
 
 $ipcon = new IPConnection(); // Create IP connection
 $rl = new BrickletRGBLED(UID, $ipcon); // Create device object
