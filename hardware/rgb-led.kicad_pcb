@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu15.10.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2+e4-6225~38~ubuntu15.10.1-stable)
 
   (general
     (links 27)
@@ -370,7 +370,7 @@
   )
 
   (module kicad-libraries:DRILL_NP (layer Vorderseite) (tedit 530C7871) (tstamp 564C5088)
-    (at 140.3 128.1 90)
+    (at 142.8 128.1 90)
     (path /4C6050A2)
     (fp_text reference U3 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
@@ -415,7 +415,7 @@
   )
 
   (module kicad-libraries:DRILL_NP (layer Vorderseite) (tedit 530C7871) (tstamp 564C5090)
-    (at 140.3 108.1)
+    (at 142.8 108.1)
     (path /4C60509F)
     (clearance 0.89916)
     (fp_text reference U5 (at 0 0) (layer F.SilkS) hide
@@ -511,7 +511,7 @@
   )
 
   (module kicad-libraries:Logo_31x31 (layer Vorderseite) (tedit 4F1D86B0) (tstamp 564C69C0)
-    (at 132.5 106.7)
+    (at 133.7 106.7)
     (fp_text reference G*** (at 1.34874 2.97434) (layer F.SilkS) hide
       (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
     )
@@ -5963,7 +5963,7 @@
   )
 
   (module kicad-libraries:WEEE_7mm (layer Rückseite) (tedit 0) (tstamp 564C69E0)
-    (at 130.3 118.1 180)
+    (at 130.3 118.2 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
@@ -6092,7 +6092,7 @@
   )
 
   (module kicad-libraries:CE_5mm (layer Rückseite) (tedit 0) (tstamp 564C69FA)
-    (at 137.3 118.1 180)
+    (at 140.3 118.2 180)
     (fp_text reference VAL (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.143 1.143) (thickness 0.1778)) (justify mirror))
     )
@@ -6189,7 +6189,7 @@
   )
 
   (module kicad-libraries:Fiducial_Mark (layer Vorderseite) (tedit 560531B0) (tstamp 56FD50CB)
-    (at 140.8 112.6)
+    (at 143.3 112.6)
     (attr smd)
     (fp_text reference Fiducial_Mark (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.03302)))
@@ -6230,21 +6230,21 @@
       (clearance 0.65024))
   )
 
+  (gr_line (start 127.8 130.6) (end 142.8 130.6) (angle 90) (layer Edge.Cuts) (width 0.381))
+  (gr_line (start 142.8 105.6) (end 127.8 105.6) (angle 90) (layer Edge.Cuts) (width 0.381))
   (gr_line (start 125.3 108.1) (end 125.3 128.1) (angle 90) (layer Edge.Cuts) (width 0.381))
-  (gr_line (start 140.3 105.6) (end 127.8 105.6) (angle 90) (layer Edge.Cuts) (width 0.381))
-  (gr_line (start 142.8 128.1) (end 142.8 108.1) (angle 90) (layer Edge.Cuts) (width 0.381))
-  (gr_line (start 127.8 130.6) (end 140.3 130.6) (angle 90) (layer Edge.Cuts) (width 0.381))
+  (gr_line (start 145.3 128.1) (end 145.3 108.1) (angle 90) (layer Edge.Cuts) (width 0.381))
   (gr_arc (start 127.8 128.1) (end 127.8 130.6) (angle 90) (layer Edge.Cuts) (width 0.381))
-  (gr_arc (start 140.3 128.1) (end 142.8 128.1) (angle 90) (layer Edge.Cuts) (width 0.381))
-  (gr_arc (start 140.3 108.1) (end 140.3 105.6) (angle 90) (layer Edge.Cuts) (width 0.381))
+  (gr_arc (start 142.8 128.1) (end 145.3 128.1) (angle 90) (layer Edge.Cuts) (width 0.381))
+  (gr_arc (start 142.8 108.1) (end 142.8 105.6) (angle 90) (layer Edge.Cuts) (width 0.381))
   (gr_arc (start 127.8 108.1) (end 125.3 108.1) (angle 90) (layer Edge.Cuts) (width 0.381))
   (gr_text "Copyright Tinkerforge GmbH 2015.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.1.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.1. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.1 for applicable\nconditions" (at 258.8 156.55) (layer Cmts.User)
     (effects (font (size 0.8001 0.8001) (thickness 0.200025) italic))
   )
-  (gr_text tinkerforge.com (at 134.1 111) (layer F.SilkS)
+  (gr_text tinkerforge.com (at 135.3 111) (layer F.SilkS)
     (effects (font (size 0.8001 0.8001) (thickness 0.14986)))
   )
-  (gr_text "RGB LED\n1.0" (at 139.6 123.2) (layer F.SilkS) (tstamp 54F8157B)
+  (gr_text "RGB LED\n1.0" (at 142 123.4) (layer F.SilkS) (tstamp 54F8157B)
     (effects (font (size 0.8001 0.8001) (thickness 0.14986)))
   )
 
@@ -6362,15 +6362,15 @@
     (fill yes (arc_segments 16) (thermal_gap 0.21) (thermal_bridge_width 0.21))
     (polygon
       (pts
-        (xy 125.3 105.6) (xy 142.8 105.6) (xy 142.8 130.6) (xy 125.3 130.6)
+        (xy 125.3 105.6) (xy 145.3 105.6) (xy 145.3 130.6) (xy 125.3 130.6)
       )
     )
     (filled_polygon
       (pts
-        (xy 138.182661 106.682565) (xy 137.801405 107.600731) (xy 137.800537 108.594907) (xy 138.18019 109.513737) (xy 138.882565 110.217339)
-        (xy 139.800731 110.598595) (xy 140.794907 110.599463) (xy 141.713737 110.21981) (xy 142.1095 109.824737) (xy 142.1095 126.375411)
-        (xy 141.717435 125.982661) (xy 140.799269 125.601405) (xy 139.805093 125.600537) (xy 138.886263 125.98019) (xy 138.182661 126.682565)
-        (xy 137.801405 127.600731) (xy 137.800537 128.594907) (xy 138.18019 129.513737) (xy 138.575263 129.9095) (xy 129.524589 129.9095)
+        (xy 140.682661 106.682565) (xy 140.301405 107.600731) (xy 140.300537 108.594907) (xy 140.68019 109.513737) (xy 141.382565 110.217339)
+        (xy 142.300731 110.598595) (xy 143.294907 110.599463) (xy 144.213737 110.21981) (xy 144.6095 109.824737) (xy 144.6095 126.375411)
+        (xy 144.217435 125.982661) (xy 143.299269 125.601405) (xy 142.305093 125.600537) (xy 141.386263 125.98019) (xy 140.682661 126.682565)
+        (xy 140.301405 127.600731) (xy 140.300537 128.594907) (xy 140.68019 129.513737) (xy 141.075263 129.9095) (xy 129.524589 129.9095)
         (xy 129.917339 129.517435) (xy 130.298595 128.599269) (xy 130.299463 127.605093) (xy 129.91981 126.686263) (xy 129.217435 125.982661)
         (xy 128.299269 125.601405) (xy 127.305093 125.600537) (xy 126.386263 125.98019) (xy 125.9905 126.375263) (xy 125.9905 122.393129)
         (xy 126.21759 122.620616) (xy 126.530079 122.750372) (xy 126.868437 122.750668) (xy 127.112071 122.65) (xy 127.88934 122.65)
@@ -6380,7 +6380,7 @@
         (xy 127.111645 121.15) (xy 126.869921 121.049628) (xy 126.531563 121.049332) (xy 126.218848 121.178544) (xy 125.9905 121.406493)
         (xy 125.9905 109.824589) (xy 126.382565 110.217339) (xy 127.300731 110.598595) (xy 128.294907 110.599463) (xy 129.213737 110.21981)
         (xy 129.917339 109.517435) (xy 130.298595 108.599269) (xy 130.299463 107.605093) (xy 129.91981 106.686263) (xy 129.524737 106.2905)
-        (xy 138.575411 106.2905)
+        (xy 141.075411 106.2905)
       )
     )
   )
