@@ -15,11 +15,11 @@
   (page A4)
   (title_block
     (title "RGB LED Bricklet")
-    (date "Mi 18 Nov 2015")
-    (rev 1.0)
+    (date 2016-08-04)
+    (rev 1.1)
     (company "Tinkerforge GmbH")
     (comment 1 "Licensed under CERN OHL v.1.1")
-    (comment 2 "Copyright (©) 2015, B.Nordmeyer <bastian@tinkerforge.com>")
+    (comment 2 "Copyright (©) 2016, B.Nordmeyer <bastian@tinkerforge.com>")
   )
 
   (layers
@@ -6238,13 +6238,13 @@
   (gr_arc (start 142.8 128.1) (end 145.3 128.1) (angle 90) (layer Edge.Cuts) (width 0.381))
   (gr_arc (start 142.8 108.1) (end 142.8 105.6) (angle 90) (layer Edge.Cuts) (width 0.381))
   (gr_arc (start 127.8 108.1) (end 125.3 108.1) (angle 90) (layer Edge.Cuts) (width 0.381))
-  (gr_text "Copyright Tinkerforge GmbH 2015.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.1.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.1. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.1 for applicable\nconditions" (at 258.8 156.55) (layer Cmts.User)
+  (gr_text "Copyright Tinkerforge GmbH 2016.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.1.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.1. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.1 for applicable\nconditions" (at 258.8 156.55) (layer Cmts.User)
     (effects (font (size 0.8001 0.8001) (thickness 0.200025) italic))
   )
   (gr_text tinkerforge.com (at 135.3 111) (layer F.SilkS)
     (effects (font (size 0.8001 0.8001) (thickness 0.14986)))
   )
-  (gr_text "RGB LED\n1.0" (at 142 123.4) (layer F.SilkS) (tstamp 54F8157B)
+  (gr_text "RGB LED\n1.1" (at 142 123.4) (layer F.SilkS) (tstamp 54F8157B)
     (effects (font (size 0.8001 0.8001) (thickness 0.14986)))
   )
 
