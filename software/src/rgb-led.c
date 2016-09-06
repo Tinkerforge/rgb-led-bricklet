@@ -142,14 +142,14 @@ void invocation(const ComType com, const uint8_t *data) {
 
 void constructor(void) {
 	_Static_assert(sizeof(BrickContext) <= BRICKLET_CONTEXT_MAX_SIZE, "BrickContext too big");
-	PIN_SPI_SDI.type = PIO_OUTPUT_0;
+	PIN_SPI_SDI.type = PIO_OUTPUT_1;
 	PIN_SPI_SDI.attribute = PIO_DEFAULT;
 	BA->PIO_Configure(&PIN_SPI_SDI, 1);
 
 	BC->r = 0;
 	BC->g = 0;
 	BC->b = 0;
-	BC->counter = 0;
+	BC->counter = 33;
 }
 
 void tick(const uint8_t tick_type) {
