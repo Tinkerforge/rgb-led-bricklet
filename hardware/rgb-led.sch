@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:rgb-led-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -400,7 +399,7 @@ F 3 "" H 5850 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N Q1
+L MOSFET_N_CH Q1
 U 1 1 564C6939
 P 4850 4650
 F 0 "Q1" H 4860 4820 60  0000 R CNN
